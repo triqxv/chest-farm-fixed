@@ -7,5 +7,5 @@ OrionLib:MakeNotification({
 })
 while wait(2.0) do
 local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
-rootPart.CFrame = game:GetService("Workspace").Chests.CFrame
+rootPart.CFrame = game:GetService("Workspace").Chest2.CFrame
 end
